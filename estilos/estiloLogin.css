@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+header{
+	width: 98.7%;
+	background: white;
+	height: 30px;
+	margin-top: 3px;
+	margin-left: 3px;
+	padding: 5px;
+	border: black 1px solid;
+}
+.Logo{
+	background: blue;
+	border: 0;
+	height: 30px;
+	width: 150px;
+	color: white;
+	font-size: 22px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.Home{
+	background: white;
+	border: 0;
+	height: 30px;
+	width: 100px;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.About{
+	background: white;
+	border: 0;
+	height: 30px;
+	width: 100px;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.Features{
+	background: white;
+	border: 0;
+	height: 30px;
+	width: 100px;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.Sales{
+	background: white;
+	border: 0;
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+main{
+	width: 98.7%;
+	height: 400px;
+}
+.Derecha{
+	width: 300px;
+	height: 300px;
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-right: 100px;
+	float: left;
+}
+.Titulo{
+	font-family: rale;
+	font-size: 22px;
+}
+.Parrafo{
+	font-family: rale;
+	font-size: 15px;
+}
+.Izquierda{
+	width: 700px;
+	height: 425px;
+	margin-top: 30px;
+	float: left;
+}
+.ImagenA{
+	width: 350px;
+	height: 150px;
+	padding-left: 100px;
+	float: left;
+	padding-bottom: 10px;
+}
+.ImagenB{
+	width: 350px;
+	height: 150px;
+	padding-left: 50px;
+	float: left;
+	padding-bottom: 10px;
+}
+.ImagenC{
+	width: 350px;
+	padding-left: 50px;
+	height: 150px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+@font-face{
+	font-family: rale;
+	src: url(../Fuente/Raleway-Regular.ttf);
+}
